@@ -1,0 +1,14 @@
+.secDescr {
+  margin: 0;
+  width: min(100%, 788px);
+  font-size: 1.2rem;
+
+  &_center {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &_mt10 {
+    margin-top: 10px;
+  }
+}

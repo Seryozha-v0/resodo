@@ -1,0 +1,28 @@
+.welcome {
+  position: relative;
+  padding: 170px 0;
+  z-index: 0;
+
+  &__wrapper {
+    width: min(100%, 758px);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__descr {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  &__btn {
+    margin-top: 10px;
+  }
+}

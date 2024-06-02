@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@import "normalize-scss/sass/normalize/import-now";
+
+@import "./base/var";
+
+* {
+  box-sizing: border-box;
+
+  &::selection {
+    background-color: rgba($color: #000, $alpha: 0.8);
+    color: #fff;
+  }
+}
+
+html {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--primary);
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: min(100%, 1260px);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "./components/logo";
+@import "./components/navMenu";
+@import "./components/iconBtn";
+@import "./components/secName";
+@import "./components/secTitle";
+@import "./components/secDescr";
+@import "./components/apps";
+@import "./components/btn";
+
+@import "./sections/header";
+@import "./sections/welcome";
+@import "./sections/secApps";
+@import "./sections/footer";
+
+@import "./base/media";

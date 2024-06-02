@@ -1,0 +1,14 @@
+.iconBtn {
+  padding: 10px;
+  display: inline-flex;
+  color: inherit;
+  border: none;
+  border-radius: 100%;
+  background: none;
+  cursor: pointer;
+  transition: 0.25s box-shadow;
+
+  &:hover {
+    box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.25);
+  }
+}
