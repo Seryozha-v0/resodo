@@ -105,6 +105,7 @@
     padding: 0 20px;
     height: 450px;
     overflow-x: auto;
+    overflow-y: hidden;
 
     &::-webkit-scrollbar {
       display: none;
@@ -221,7 +222,6 @@
 .apps__card:has(~ .apps__card_active),
 .apps__card_active ~ .apps__card {
   width: 130px;
-  border-radius: 50px;
 
   .apps {
     &__closeBan {
